@@ -1,0 +1,212 @@
+
+a, a:hover{
+  text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.main-container{
+	margin: auto;
+}
+
+/*navbar */
+.navbar-brand>a>img{
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	opacity: 0.9;
+}
+
+.navbar{
+	background: none;
+	background-color: rgba(0,0,0,.2);
+	padding: 0;
+}
+
+.navbar-nav{
+	margin-right: 5%;
+}
+
+.navbar .navbar-nav>li>a{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: right;
+}
+
+.navbar-inverse .navbar-nav .nav-link{
+	color: rgba(255,255,255,1);
+}
+
+.navbar-inverse .navbar-nav .active>.nav-link{
+	font-weight: 700;
+}
+
+.dropdown .dropdown-menu{
+	margin: auto;
+	background: none;
+	border: none;
+	outline: 0;
+}
+
+.dropdown-item{
+	color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+	color: #ccc;
+}
+
+.dropdown-item:hover {
+	text-decoration: none;
+	background: none;
+}
+
+/* end navbar */
+
+.feature-image {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    padding: 140px 0;
+    background: url(img/pexels-photo-13975.jpeg) 50% 50% repeat fixed;
+    background-size: cover;
+}
+
+.feature-image>h1{
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+/* content */
+
+.content-container {
+    margin: auto;
+    width: 90%;
+}
+
+.post-row{
+	padding: 60px 0;
+}
+
+.main-content{
+	margin: auto;
+}
+
+.post, .widget{
+	margin: 0 0 40px;
+}
+
+.post, .widget, .main-content {
+  border: solid 1px #ccc;
+  background: #fff;
+	padding: 20px;
+  border-radius: 4px;
+}
+
+.widget>h5{
+	padding-bottom: 10px;
+	border-bottom: solid 1px #ccc;
+	font-weight: 600;
+}
+
+.main-content>h2{
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #ccc;
+}
+
+.main-content>h2>a{
+	color: #d80023;
+}
+
+.widget button, .btn-info{
+	background-color: #4d7200;
+	border: none;
+	margin-top: 20px;
+}
+
+.widget button:hover, .btn-info:hover{
+	background-color: rgba(77, 114, 0, 0.9);
+}
+
+.widget input, .form-control{
+	width: 100%;
+	border: 1px solid #4d7200;
+	border-radius: 3px;
+	padding: 8px 12px;
+	font: 16px 'Raleway';
+}
+
+.widget>ul>li>a{
+	color: #d80023;
+}
+
+.o-firmie-cta{
+	background: url(img/people-summer-garden-sitting.jpg) no-repeat;
+	height: 400px;
+	background-position: 30% 90%;
+	background-size: cover;
+	width: 100%;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.o-firmie-cta .box-shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.3);
+	box-shadow: inset 0 0 200px #000;
+}
+
+/* RESPONSIVE CSS */
+
+
+
+
+@media (max-width: 992px){
+	.navbar-toggler-icon{
+		position: relative;
+		margin-right: 15px;
+		top: 10%;
+	}
+
+	.navbar-collapse{
+		position: absolute;
+		top: 80px;
+		right: 25px;
+	}
+
+	.navbar-toggler-right{
+		top: 10%;
+	}
+
+	.navbar-inverse .navbar-toggler{
+		outline: 0;
+		border-color: rgba(0,0,0,0);
+	}
+
+	.navbar-inverse .navbar-toggler-icon{
+		background-image: url(img/svg/bars.svg);
+		height: 40px;
+		width: 40px;
+		opacity: 0.9;
+	}
+
+	.navbar .navbar-nav>li>a{
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 12px;
+	}
